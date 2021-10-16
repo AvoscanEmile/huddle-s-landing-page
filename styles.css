@@ -1,0 +1,17 @@
+/* Variables */
+
+:root {
+    --clr-pink: #ff52bf;
+    --clr-white: #ebfbff;
+    --clr-cyan: #00252e;
+    --clr-gray: #808d99;
+    --fw-headings: 600;
+    --fw-regular: 400;
+    --fw-bold: 700;
+    --ff-headings: "Poppins", sans-serif;
+    --ff-body: "Open Sans", sans-serif;
+    --fs-h1: 36px;
+    --fs-ready: 28px;
+    --fs-h2: 24px;
+    --fs-p: 18px;
+}
