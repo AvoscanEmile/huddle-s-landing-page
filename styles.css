@@ -15,3 +15,88 @@
     --fs-h2: 24px;
     --fs-p: 18px;
 }
+
+/* General Styling */
+
+html {
+    box-sizing: border-box;
+    font-family: var(--ff-body);
+    font-size: var(--fs-p);
+    font-weight: var(--fw-regular);
+    color: var(--clr-cyan);
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+/* Header Styling */
+
+.header {
+    background-image: url(images/background/bg-hero-desktop.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: var(--clr-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.header__link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+    padding: 1em 4em;
+    border-radius: 50px;
+}
+
+.header__logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: clamp(300px, 90vw, 1650px);
+    padding: 2.5rem 0;
+}
+
+.header__logo {
+    height: 35px;
+    width: auto;
+}
+
+.header__link--1st {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
+    color: var(--clr-cyan);
+}
+
+.header__image-container {
+    display: flex;
+    width: clamp(300px, 90vw, 1650px);
+}
+
+.header__text-container {
+    width: 100%;
+    padding-right: 4rem;
+}
+
+.header__title {
+    font-weight: var(--fw-headings);
+    font-family: var(--ff-headings);
+    font-size: var(--fs-h1);
+}
+
+.header__link--2nd {
+    background-color: var(--clr-pink);
+    color: white;
+    margin-top: .5rem;
+}
+
+.header__image {
+    width: 100%;
+}
+
